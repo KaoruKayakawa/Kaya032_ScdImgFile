@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Kaya032_ScdImgFile", "Kaya032_ScdImgFile.vbproj", "{63D95528-E9E9-43EF-B4E9-4AB6BFC7BAB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63D95528-E9E9-43EF-B4E9-4AB6BFC7BAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D95528-E9E9-43EF-B4E9-4AB6BFC7BAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D95528-E9E9-43EF-B4E9-4AB6BFC7BAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D95528-E9E9-43EF-B4E9-4AB6BFC7BAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E34A3419-ABDC-4E55-BAF2-F7FE6A69F2AA}
+	EndGlobalSection
+EndGlobal
