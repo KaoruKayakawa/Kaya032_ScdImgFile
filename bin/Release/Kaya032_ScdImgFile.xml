@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Kaya032_ScdImgFile
+</name>
+</assembly>
+<members>
+<member name="T:Kaya032_ScdImgFile.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Kaya032_ScdImgFile.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Kaya032_ScdImgFile.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Kaya032_ScdImgFile.SettingConfig.Db_PicUnit_Dir_Type(System.Xml.XmlNode)">
+ <summary></summary>
+ <param name="nd_dir"></param>
+ <returns>
+ 2次インデックス
+     0：イメージタイプ（IMG, DTL_IMG, KLS_IMG）
+     1：ファイル名前置詞（, dtl_, kls_）
+ </returns>
+</member>
+</members>
+</doc>
