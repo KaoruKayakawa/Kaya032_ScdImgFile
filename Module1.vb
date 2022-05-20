@@ -12,7 +12,7 @@ Module Module1
 
     Sub Main()
         Try
-            Console.WriteLine("■ ＤＢテーブル [SHOHIN_IMG_FILE] の更新（ ver：" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + "）")
+            Console.WriteLine("■ ＤＢテーブル [SHOHIN_IMG_FILE] の更新（ver：" + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString() + "）")
 
             For Each db As XmlNode In SettingConfig.DbList
                 Console.WriteLine("")

@@ -120,7 +120,7 @@ Public Class db_SHOHIN_IMG_FILE
 
     Public Shared Function Get_ShohinCd_01(conStr As String) As DataTable
         Dim sb As StringBuilder = New StringBuilder(1000)
-        sb.AppendLine("SELECT DISTINCT SSHM_SCD, SSHM_SFILENAME")
+        sb.AppendLine("SELECT DISTINCT SSHM_SCD, ISNULL(SSHM_SFILENAME, '') AS SSHM_SFILENAME")
         sb.AppendLine("FROM ft_SHOHIN_MST(NULL)")
         sb.AppendLine("ORDER BY SSHM_SCD, SSHM_SFILENAME;")
 
